@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./catalog.css" />
+    <script
+      src="https://kit.fontawesome.com/e930664aa9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Catalog</title>
+  </head>
+
+  <body>
+     <section id="nav">
+      <header>
+        <div class="overlay">
+          <div class="image__overlay">
+            <div class="row">
+              <nav>
+                <div class="nav__container">
+                  <img class="cat__logo" src="./Assets/anilog-high-resolution-logo-grayscale-transparent.png" alt="">
+                  <div class="navbar">
+                    <ul class="nav__links">
+                      <li><a href="#" class="nav__link">Home</a></li>
+                      <li><a href="#" class="nav__link">Catalog</a></li>
+                    </ul>
+                    <a href="#contact">
+                      <button class="btn__contact">Contact</button>
+                    </a>
+                  </div>  
+                </div>
+              </div>
+              </nav>
+            
+            <div class="row">
+
+              <div class="content-wrapper">
+                <div class="contianer">
+                  <h1 class="browse">Browse Anime</h1>
+                  
+                  <div class="input-wrapper">
+
+                      <input type="text" class="searchTerm" placeholder="Search by Genre, Letter, or Keyword">
+                        <button title="anime" onclick="fetchData()">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <img src="" alt="Anime Poster" id="animeImg" style="display:none">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </header>
+      </section>
+    <main>
+
+    <section>
+      <div class="container">
+    <div class="row">
+      <div class="anime-list">
+        <div class="anime">
+          <div class="anime-card">
+            <div class="anime-card__container">
+              <div class="anime__title">
+
+                <h3>User's Name</h4>
+                </div>
+                <div class="anime__body">
+                  <p><b>Email:</b> email@email.com</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <script src="https://github.com/jikan-me/jikan-rest.git"></script>
+    <script src="script.js"></script>
+
+    </main>
+  </body>
+</html>
